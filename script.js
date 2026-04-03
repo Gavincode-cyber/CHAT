@@ -59,7 +59,7 @@ function capsUpdate(event) {
 function generateURL(event) {
     event.preventDefault();
 
-   const generatedUrl = 'https://gavincode-cyber.github.io/CHAT/twitch/jchat/v2/?channel=' + $channel.val();
+   const generatedUrl = 'https://gavincode-cyber.github.io/CHAT/v2/?channel=' + $channel.val();
 
     let data = {
         size: $size.val(),
