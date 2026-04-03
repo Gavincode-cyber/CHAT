@@ -59,7 +59,7 @@ function capsUpdate(event) {
 function generateURL(event) {
     event.preventDefault();
 
-    const generatedUrl = window.location.origin + window.location.pathname + '?channel=' + $channel.val();
+    const generatedUrl = window.location.origin + '/twitch/jchat/v2/?channel=' + $channel.val();
 
     let data = {
         size: $size.val(),
